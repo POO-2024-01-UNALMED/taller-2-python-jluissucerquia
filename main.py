@@ -48,4 +48,4 @@ def cambiarRegistro(self, registro):
 
 def asignarTipo(self, tipo):
     if tipo == "electrico" or tipo == "gasolina":
-        return self.tipo = tipo
+        self.tipo = tipo
