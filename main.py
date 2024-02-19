@@ -22,7 +22,7 @@ def verificarIntegridad(self):
             if (type(asiento) == Asiento):
                 if asiento.registro != self.registro:
                     return "Las piezas no son originales"
-        return "Auto originales"
+        return "Auto original"
     else:
         return "Las piezas no son originales"
         
